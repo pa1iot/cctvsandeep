@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #3236c3;
+    --primary: #32c343;
     --light: #F6F7F8;
     --dark: #1A2A36;
 }
@@ -26,11 +26,11 @@
 }
 
 a{
-    color: #3236c3;
+    color: #32c343;
 }
 a:hover
 {
-    color: #3236c3;
+    color: #32c343;
 }
 /*** Spinner ***/
 #spinner {
