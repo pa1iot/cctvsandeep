@@ -580,3 +580,19 @@ a:hover
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+@media (min-width: 1400px)
+{
+    .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+        max-width: 1320px;
+        max-height: 3000px;
+    }
+}
+@media (min-width: 992px)
+{
+    .px-lg-0 {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        max-height: 591px;
+    }
+}
