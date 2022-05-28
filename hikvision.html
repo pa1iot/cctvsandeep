@@ -163,13 +163,44 @@
         </div>
     </section>
     <!--call to action end -->
-
+    <style>
+         ul#leftbar
+        {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background: rgba(0, 0, 0, 0.2);
+        }
+        ul#leftbar li{
+            color:black;
+            font-size:15px;
+            line-height: 1.5;
+        }
+        ul#leftbar li a{
+            border-left: 4px solid transparent;
+            padding: 10px 20px;
+            display: block;
+            padding: 10px 15px;
+            color: #000;
+            text-decoration: none;
+            -webkit-transition: 0.2s linear;
+            -moz-transition: 0.2s linear;
+            -ms-transition: 0.2s linear;
+            -o-transition: 0.2s linear;
+            transition: 0.2s linear;
+        }
+        ul#leftbar li a:hover{
+            border-left: 4px solid #32C343;
+            background: #326036;
+            color: #000;
+        }
+    </style>
     <!--main content start-->
     <div class="container py-5">
         <div class="row">
             <div class="col-md-3">
                 <!-- Tabs nav -->
-                <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <!-- <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <a class="nav-link mb-3 p-3 shadow active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
                         <i class="fa fa-user-circle-o mr-2"></i>
                         <span class="font-weight-bold small text-uppercase"> Hikvision </span></a>
@@ -179,16 +210,20 @@
                         <span class="font-weight-bold small text-uppercase">CP Plus</span></a>
 
                     <a class="nav-link mb-3 p-3 shadow" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
-                        <!-- <i class="fa fa-star mr-2"></i> -->
+                        
                         <span class="font-weight-bold small text-uppercase">Dahua</span></a>
 
                     <a class="nav-link mb-3 p-3 shadow" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
-                        <!-- <i class="fa fa-check mr-2"></i> -->
+                        
                         <span class="font-weight-bold small text-uppercase">Honeywell</span></a>
-                    </div>
+                </div> -->
+                <ul id="leftbar">
+                    <li><a href="hikvision.html">Hikvision</a></li>
+                    <li><a href="cp-plus.html">CP Plus</a></li>
+                    <li><a href="dahua.html">Dahua</a></li>
+                    <li><a href="honeywell.html">Honeywell</a></li>
+                </ul>     
             </div>
-
-
             <div class="col-md-9">
                 <!-- Tabs content -->
                 <div class="tab-content" id="v-pills-tabContent">
@@ -349,6 +384,7 @@
         event.target // newly activated tab
         event.relatedTarget // previous active tab
         });
+        
         $("div.nav-pills-custom>a.nav-link").click(function(e) {
             e.preventDefault();
             $(this).siblings().removeClass("active");

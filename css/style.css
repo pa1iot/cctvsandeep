@@ -242,6 +242,11 @@ a:hover
     background-size: cover;
 }
 .page-image4{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/CCTV-Installation-banner.jpg) center center no-repeat;
+    /* width:80%; */
+    background-size: cover;
+}
+.page-image8{
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/bio-banner2.jpg) center center no-repeat;
     /* width:80%; */
     background-size: cover;
@@ -258,6 +263,11 @@ a:hover
 }
 .page-image7{
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/video_door_banner.jpg) center center no-repeat;
+    /* width:80%; */
+    background-size: cover;
+}
+.page-image9{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/epabx-installation-banner.jpg) center center no-repeat;
     /* width:80%; */
     background-size: cover;
 }
