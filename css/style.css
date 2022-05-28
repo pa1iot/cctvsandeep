@@ -233,23 +233,59 @@ a:hover
 }
 .page-image2{
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/dahua-cctv-hyderabad.jpg) center center no-repeat;
-    /* width:80%; */
+    width:80%;
     background-size: cover;
 }
 .page-image3{
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/honeywell-cctv-\ hyderabad.png) center center no-repeat;
-    /* width:80%; */
+    width:80%;
     background-size: cover;
 }
 .page-image4{
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/hikvision-cctv.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/bio-banner2.jpg) center center no-repeat;
+    /* width:80%; */
+    background-size: cover;
+}
+.page-image5{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/LAN-networking.jpg) center center no-repeat;
+    /* width:80%; */
+    background-size: cover;
+}
+.page-image6{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/firealarm_banner.jpg) center center no-repeat;
+    /* width:80%; */
+    background-size: cover;
+}
+.page-image7{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/video_door_banner.jpg) center center no-repeat;
     /* width:80%; */
     background-size: cover;
 }
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
+    color: #6c757d !important;
 }
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #348F50 0%, #56B4D3  51%, #348F50  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
 
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
 
 /*** About ***/
 @media (min-width: 992px) {
@@ -274,6 +310,41 @@ a:hover
     }
 }
 
+/** contact info***/
+    #contact-info .section-theme{
+        padding: 40px 35px;
+        position: relative;
+        box-shadow: 0 0 20px 0px #000;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    #contact-info .section-theme .sec-img img{
+        position: absolute;
+        top: 0;
+        width: 158px;
+        height: 142px;
+    }
+    #contact-info .section-theme .description{
+        font-size: 14px;
+        color: #000000;
+        font-weight: 800;
+        text-transform: capitalize;
+        line-height: 5px;
+    }
+    #contact-info .section-theme .description p{
+        font-size:20px;
+        margin-bottom: 5px;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    #contact-info .section-theme .description h5{
+        font-size:35px;
+    }
+    #contact-info .section-theme .btn-action{
+        float:right;
+    }
+    
+/** contact info***/
 
 /*** Service ***/
 .service-item {
